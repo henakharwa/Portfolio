@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaTwitter } from 'react-icons/fa';
+import { FaGithub} from 'react-icons/fa';
 import { AiFillMediumCircle, AiFillLinkedin } from 'react-icons/ai';
 import { FiMail } from 'react-icons/fi';
 
@@ -16,13 +16,13 @@ const Footer = () => {
 					<a href="mailto:henakharwa@gmail.com" className='transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1' style={{ cursor: 'pointer' }}>
 						<FiMail className='text-xl' />
 					</a>
-					<a href="https://linkedin.com/in/hena-kharwa-0ab779214" target='_blank' className='transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1' style={{ cursor: 'pointer' }}>
+					<a href="https://linkedin.com/in/hena-kharwa-0ab779214" target='_blank' rel="noreferrer" className='transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1' style={{ cursor: 'pointer' }}>
 						<AiFillLinkedin className='text-xl' />
 					</a>
-					<a href="https://github.com/henakharwa" target='_blank' className='transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1' style={{ cursor: 'pointer' }} >
+					<a href="https://github.com/henakharwa" target='_blank' rel="noreferrer" className='transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1' style={{ cursor: 'pointer' }} >
 						<FaGithub className='text-xl' />
 					</a>
-					<a href="https://medium.com/@20ce043" target='_blank' className='transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1' style={{ cursor: 'pointer' }}>
+					<a href="https://medium.com/@20ce043" target='_blank' rel="noreferrer" className='transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1' style={{ cursor: 'pointer' }}>
 						<AiFillMediumCircle className='text-xl' />
 					</a>
 				</div>
