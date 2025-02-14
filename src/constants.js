@@ -5,42 +5,62 @@ export const services = [
         icon: 'https://csgeeek.github.io/web.png',
     },
     {
-        title: "Software Engineer",
+        title: "ML Engineer",
         icon: 'https://csgeeek.github.io/web.png',
     },
     {
-        title: "Photographer",
+        title: "Researcher",
         icon: 'https://csgeeek.github.io/web.png',
     },
 ];
 
-export const name = 'Nithin';
+export const name = 'Hena Kharwa';
 
 export const experiences = [
     {
-        'company': 'Inncircles Technologies',
-        'role': 'Product Developer',
-        'duration': 'April 2023 - Present',
-        'logo': 'https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/e5gz1yggdy8sc1umna3e',
+        'company': 'Dhyey Technologies - TechXi',
+        'role': 'AI/ML Intern',
+        'duration': 'Jan 2024 - Jun 2024',
+        'logo': 'https://dhyey.com/wp-content/uploads/2024/04/Sign-logo150x277.png',
         'points': [
-            'Involved in dynamic contributions to web and mobile📱 development projects, actively influencing and improving project outcomes.',
-            'Developed multiple shared components to simplify tasks for fellow developers, boosting efficiency and teamwork.',
-            'Enhanced product performance through significant contributions to backend development, optimizing essential components for improved efficiency 📈.',
-            'Implemented data security for the company’s product to provide role-based access control ⚙️.'
+            'Developed an integrated machine learning system for medical diagnosis, improving the accuracy of heart and cancer detection by 20% and achieving a 40% increase in model accuracy.',
+            'Deployed Flask APIs to integrate ML models into healthcare systems, supporting real-time inference for 200+ users and leveraging GPU optimization and parallel processing',
+            'Conducted large-scale data collection and preprocessing, incorporating image segmentation and performance tuning to enhance system efficiency by 15%.',
+            'Utilized AWS & Azure for scalable containerized deployment, demonstrating expertise in high-performance computing and GPU architectures.'
         ],
-        'url': 'https://inncircles.com/#home',
+        'url': 'https://dhyey.com/',
     },
     {
-        'company': 'AT & T',
-        'role': 'Technical Intern',
-        'duration': 'Jan 2023 - March 2023',
-        'logo': 'https://www.att.com/ecms/dam/att/consumer/global/logos/att_globe_500x500.jpg',
+        'company': 'Charusat University',
+        'role': 'Machine Learning Intern',
+        'duration': 'May 2023 - Aug 2023',
+        'logo': 'https://www.charusat.ac.in/_next/static/media/CHARUSAT_NEW.6cad095d.png',
         'points': [
-            'Gained experience with Git version control contributing to the development and maintenance of code repositories.',
-            'Worked on the application dashboard, making it more user-friendly and improving its overall functionality📱.'
+            'Designed and implemented a hybrid recommendation system that combines collaborative filtering and content-based filtering to deliver more accurate recommendations.',
+            'Achieved a 15% improvement in recommendation accuracy during initial testing through the strategic integration of multiple recommendation techniques.',
+            'Utilized advanced deep learning frameworks like PyTorch and CuBLAS to optimize performance, ensuring efficient training and inference of large datasets.',
+            'Applied the models to an e-commerce platform simulation, resulting in a 20% increase in user engagement and a 5% boost in conversion rates through personalized product suggestions.',
+            'Conducted extensive research and experimentation to improve system adaptability, supporting scalable solutions for real-world applications.'
+
+
         ],
-        'url': 'https://www.att.com/',
+        'url': 'https://www.charusat.ac.in/',
     },
+
+    {
+        'company': 'Enlighten Infosystems',
+        'role': 'Python and Machine Learning Intern',
+        'duration': 'May 2022 - Aug 2022',
+        'logo': 'http://www.enlighteninfosystems.com/img/logo/1.png',
+        'points': [
+            'Engineered a beginner-level expert system to automate decision-making processes, reducing decision time by 30% and improving system efficiency by 10%.',
+            'Applied image processing techniques to analyze and manipulate visual data, achieving a 15% improvement in accuracy and reducing processing time by 25%.',
+            'Designed user-friendly GUIs, enhancing accessibility with 90% user satisfaction.'
+
+
+        ],
+        'url': 'http://www.enlighteninfosystems.com/',
+    }
 ]
 
 

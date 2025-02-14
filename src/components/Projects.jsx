@@ -30,7 +30,7 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
                         </p>
                     ))}
                 </div>
-                <a href={git} className="text-red-300 border border-gray-200 rounded-lg shadow p-1 sm:p-2 lg:p-3 hover:text-green-500 duration-300">GitHub</a>
+                <a href={git} className="text-red-300 border border-gray-200 rounded-lg shadow p-1 sm:p-2 lg:p-3 hover:text-green-500 duration-300">Link</a>
             </div>
         </div>
     );
@@ -60,18 +60,18 @@ const Projects = () => {
 
 export const project = [
     {
-        title:'Co People',
-        description:'Co People is a dynamic web application I crafted using React, Node JS and React. This project is a modern and engaging social platform that allows users to connect, share content and interact seamlessly.',
+        title:'PrepRight',
+        description:'PrepRight is an AI-powered dynamic web application to help candidates prepare for interviews. This platform empowers users with tailored job specific personalized resources, interactive practice sessions, and real-time performance analytics',
         image: {vpn},
-        git:'https://github.com/nithingooud/CoPeople',
-        technologies:['MongoDb' ,'ReactJS' , 'NodeJS']
+        git:'https://github.com/shubhamsatbhaiya/interview-prep-backend',
+        technologies:['AI','ML' ,'LLMs' , 'ReactJS']
     },
     {
-        title:'Snap Shot',
-        description:'SnapShot is a stunning portfolio that I exclusively designed using React JS and tailwind CSS.This Project serves as a representation of a photographer’s work, highlighting their portfolio and services.',
+        title:'Isolated Sign Language Recognition',
+        description:'This is a groundbreaking research work done using Hybrid Inception Architecture with publication in IEEE Access.This Project translates sign language gestures into text and speech, significantly improving accessibility and inclusivity.',
         image: {copeople},
-        git:"https://github.com/nithingooud/vpn_studios",
-        technologies:[ 'React JS', 'tailwind CSS']
+        git:"https://ieeexplore.ieee.org/document/10577129",
+        technologies:[ 'Deep Learning', 'Computer Vision']
     }
 ]
 
